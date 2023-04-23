@@ -1,0 +1,121 @@
+:root{
+    --dblue: #053F5E;
+    --blue: #145D85;
+    --lgrey: #EEEEEE;
+    --grey: #C3C3C3;
+    --dgrey: #737373;
+    --red: #CA3E47;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px;
+    margin-top: -66px;
+    margin-left: -28px;
+    margin-right: 8px;
+
+}
+header{
+    color: var(--red);
+    height: 250px;
+}
+
+.header_left{
+    max-width: 102%;
+    height: 260px;
+    margin-left: -2px;
+    margin-top: 30px;
+    background-color: var(--dblue);
+    float: left;
+    padding: 25px;
+    font-size: 10px;
+    width: 380px;
+    text-align: center;
+}
+
+.header_text{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+header.title{
+    font-size: 10px;
+}
+
+.header_right {
+    float: right;
+    max-width: 104%;
+    width: 830px;
+}
+.header_right .cst{
+    height: 345px;
+    width: 860px;
+}
+
+.navCal{
+    margin-top: 117px;
+}
+.navCal .nav{
+    padding: 0;
+    margin: 0;
+}
+.nav ul{
+    list-style: none;
+    background: var(--blue);
+}
+.nav ul li{
+    display: inline-block;
+    position: relative;
+}
+.nav ul li a{
+    display: block;
+    padding: 15px 30px;
+    color: var(--grey);
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+}
+.nav ul li ul.dropdown li{
+    display: block;
+}
+.nav ul li ul.dropdown{
+    width: 100%;
+    background: var(--blue);
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+.nav ul li a:hover{
+    background-color: var(--dblue);
+}
+.nav ul li:hover ul.dropdown{
+    display: block;
+}
+
+.navCal .section_left{
+    float: left;
+    
+}
+
+.section_right{
+    float: right;
+    background-color: var(--dblue);
+    text-align: center;
+    height: 300px;
+    max-width: 100%;
+    
+}
+.calender{
+    color: var(--red);
+    padding: 20px ;
+}
